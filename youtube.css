@@ -1,0 +1,186 @@
+
+
+.youtube-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 57px;
+
+    justify-content: space-between;
+}
+.left-section{
+    width: 162px;
+    
+    display: flex;
+    align-items: center;
+}
+.three-dot-image{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.youtube-logo{
+    height: 20px;
+}
+.middle-section{
+    
+    width: 470px;
+    
+    margin-left: 60px;
+    display: flex;
+    
+    align-items: center;
+   
+}
+.search-bar{
+    display: flex;
+    flex: 1;
+    max-width: 358px;
+    height: 37px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    padding-left: 12px;
+    padding-right: 2px;
+    
+
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: rgb(192, 192, 192);
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 0;
+    
+}
+.search-bar::placeholder{
+    font-family: Roboto, Arial;
+    font-size: 16px;
+}
+.search-button{
+    padding-top: 2px;
+
+    height: 40px;
+    width: 66px;
+    background-color: rgb(240, 240, 240);
+    border-color: rgb(192, 192, 192);
+    
+    border-width: 1px;
+    border-style: solid;
+    
+    
+    margin-right: 8px;
+    margin-left: -1px;
+
+}
+.search-icon{
+    height: 24px;
+}
+.voice-icon{
+    height: 24px;
+    width: 24px;
+    
+
+}
+.voice-button{
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    border-width: 0px;
+    background-color: rgb(237, 234, 234);
+}
+.right-section{
+    width: 182px;
+    
+    margin-left: 29px;
+    margin-right: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.upload-icon,.apps-icon, .notification-icon{
+    height: 24px;
+    width: 24px;
+}
+.profile-icon{
+    height: 32px;
+    border-radius: 16px;
+}
+
+
+
+
+
+p{
+    font-family: Roboto, Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.thumbnail-class{
+    margin-bottom: 10px;
+}
+.thumbnail-1{
+    
+    width: 100%;
+    
+    
+    
+}
+.video-title{
+    
+    font-family: Roboto, Arial;
+    font-size: 15px;
+    font-weight: 700;
+    
+    line-height: 20px;
+    margin-bottom: 12px;
+
+}
+.channel-name,.video-stats{
+    display: block;
+    color: rgb(96, 96, 96);
+    font-size: 12px;
+    line-height: 10px;
+}
+.video-stats{
+    margin-top: 6px;
+    
+}
+.search-bar{
+    display: block;
+    font-size: 20px;
+
+}
+.video-preview{
+    width: 100%;
+    
+    
+    margin-right: 15px;
+    
+}
+.channel-picture{
+    
+    
+}
+.profile-picture{
+    width: 50px;
+    border-radius: 100%;
+}
+.video-info{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+
+}
+.text-box{
+    margin-left: 10px;
+}
